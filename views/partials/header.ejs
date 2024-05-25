@@ -1,0 +1,52 @@
+<!--
+Web Development Spring 2024
+Project 1 - API
+Author: Nathan Vazquez
+5/2024
+Purpose: This file adds the header to the entire project.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Adds the bootstrap cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <!-- jquery cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+  <!-- link to external css -->
+  <link rel="stylesheet" href="/styles/content.css">
+  <!-- adds favicon to website -->
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+</head>
+<header>
+  <!-- navbar for this project -->
+  <!-- simple navbar that is taken from the bootstrap website -->
+<div class="nav-header">
+  <nav class=" navbar_styling navbar navbar-expand-lg bg-body-tertiary" >
+    <div class=" navbar_styling container-fluid">
+      <a class="navbar-brand  app_title" href="/" style="padding-left:15px; color:white;">
+        <img src="../images/favicon.ico" height="30px" style="border-radius: 25px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span style="color:black;" class="navbar-toggler-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+</header>
+<main class="main_body container">
